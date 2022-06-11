@@ -2,6 +2,7 @@ dir - listar diretórios
 cd / ou cd "nome da pasta" - possibilita que naveguemos entre as pastas
 cd .. - retrocede um diretório
 cls - limpar o terminal
+CTRL + L - limpar o terminal (UNIX e GitBash)
 TAB - autocompletar
 mkdir - cria uma pasta
 echo - printa no terminal algo

@@ -1,0 +1,20 @@
+git init - iniciar repositório
+git add - adicionar arquivos
+git commit - adicionar um commit
+
+git add * - adicionando tudo
+git commit -m "texto do commit" - modo de adicionar um commit
+
+git status - mostra o estado do repositório
+
+git config --list - listar as configurações do github
+git config --global --unset user.email - alterar configurações separadas do github
+
+
+git remote add origin "endereco-do-repositorio-no-git" - fazer a conexão com o repositório remoto
+git push origin master - empurrar arquivos do repositório local para o repositório remoto
+
+git pull origin master - puxar alterações (arquivos) do repositório remoto para o repositório local
+
+git clone "endereco-do-repositorio-no-git" - clonar um repositório para a sua máquina local
+git remote -v - mostra quais repositórios está apontando

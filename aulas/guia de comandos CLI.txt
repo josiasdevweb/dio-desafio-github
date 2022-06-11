@@ -1,0 +1,12 @@
+dir - listar diretórios
+cd / ou cd "nome da pasta" - possibilita que naveguemos entre as pastas
+cd .. - retrocede um diretório
+cls - limpar o terminal
+TAB - autocompletar
+mkdir - cria uma pasta
+echo - printa no terminal algo
+echo "algum texto" > "nome do arquivo".txt - cria um novo arquivo com o texto "algum texto" dentro.
+del - irá deletar um arquivo
+rmdir "nome do repositório" /S /Q - remove o repositório inteiro junto dos arquivos.
+
+ls -a - lista arquivos e pastas ocultos. (UNIX/GitBash)

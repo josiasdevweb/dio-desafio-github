@@ -1,0 +1,20 @@
+Gitbash
+openssl sha1 texto.txt - gerar um conjunto de caracteres sha1: É a forma do git identificar se houve ou não alterações no arquivo.
+
+Objetos Git
+Blobs
+echo 'conteudo' | git hash-object --stdin - vai devolver o sha1 desse conteúdo. Contém metadados.
+
+sem git:
+echo -e 'conteudo' | openssl sha1 - vai gerar outro sha1 toda vez que executar esse comando.
+
+passando como parâmetro:
+echo -e 'blob 9\0conteudo' | openssl sha1
+
+
+Trees
+As trees armazenam blobs. Também contém metadados. A ordem é trees > bloob > sha1. As trees guardam os nomes dos arquivos, ao contrário dos blobs. As trees podem apontar para outras trees. É responsável por montar toda a estrutura. As trees também têm um sha1. Ao mudar algo na tree esse sha1 vai mudar também na blob.
+
+
+Commits
+Objeto que junta tudo e dá sentido para a alteração. Aponta para uma tree, parente e autor. Qualquer coisa que você muda em uma blob vai refletir na árvore (tree), que vai refletir no commit.

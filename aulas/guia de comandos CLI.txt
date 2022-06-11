@@ -1,4 +1,4 @@
-dir - listar diretórios
+dir / ls - listar diretórios (Windows/UNIX)
 cd / ou cd "nome da pasta" - possibilita que naveguemos entre as pastas
 cd .. - retrocede um diretório
 cls - limpar o terminal
